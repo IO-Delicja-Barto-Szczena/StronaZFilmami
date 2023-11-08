@@ -6,6 +6,6 @@
     <title>Strona</title>
 </head>
 <body>\
-    Ala ma kota
+    Ala ma kota afosdikjfklasdhf
 </body>
 </html>
