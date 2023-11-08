@@ -6,6 +6,6 @@
     <title>Strona</title>
 </head>
 <body>\
-    Ala ma kota
+    Ala ma kota i chuj
 </body>
 </html>
