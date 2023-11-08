@@ -6,6 +6,6 @@
     <title>Strona</title>
 </head>
 <body>\
-    Strona z filmami
+    Strona z filmami1
 </body>
 </html>
