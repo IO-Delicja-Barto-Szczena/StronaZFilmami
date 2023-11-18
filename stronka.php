@@ -30,12 +30,16 @@
 
 
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" 
             aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button> 
-    <a class="navbar-brand" href="#">Logo</a>
+<a class="navbar-brand" href="#">
+    <img src="LogoTrans.png" alt="Logo" id="logonavbar">
+</a>
+
 
     <div class="collapse navbar-collapse" id="navbarToggler1">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
