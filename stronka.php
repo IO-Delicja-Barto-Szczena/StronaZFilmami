@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-
+<!-- #004AAD -->
 
 
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Strona IO</title>
     
     <!-- Bootstrap CSS -->  
-    
     <!--4.0--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
 
@@ -18,47 +17,58 @@
 
 
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
 
 
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
 </head>
 <body>
 
+
+
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" 
+            aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button> 
+    <a class="navbar-brand" href="#">Logo</a>
 
-<a class="navbar-brand" href="#">Logo</a>
+    <div class="collapse navbar-collapse" id="navbarToggler1">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>  
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
 
-<div class="collapse navbar-collapse" id="navbarNav">
-
-<ul class="navbar-nav ml-auto">
-    <li class="nav-item active">
-    <a class="nav-link" href="#">Strona główna <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#">O nas</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#">Usługi</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#">Kontakt</a>
-    </li>
-</ul>
-
-</div>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="button" data-toggle="collapse" data-target="#searchCollapse" aria-controls="searchCollapse" aria-expanded="false">
+            <i class="fas fa-search"></i>
+        </button>
+        
+        <div class="collapse form-inline my-2 my-lg-0" id="searchCollapse">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Szukaj</button>
+        </div>
 
 </nav>
+
+
+
 
 
 
@@ -71,8 +81,9 @@ Strona z filmami
 
 <!-- jebana karuzela -->
 
-<div class="col-md-8"> 
+<div class="col-md-6 mx-auto">
     <div id="carouselExample" class="carousel slide" data-ride="carousel">
+
         <div class="carousel-inner">
             <div class="carousel-item active">
             <img src="./pics/carouselmainfirst/carpic1.jpg" class="d-block w-100" alt="Image 1">
@@ -84,14 +95,17 @@ Strona z filmami
             <img src="./pics/carouselmainfirst/carpic3.jpg" class="d-block w-100" alt="Image 3">
             </div>
         </div>
+
         <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
+
         <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+
     </div>
 </div>
 
