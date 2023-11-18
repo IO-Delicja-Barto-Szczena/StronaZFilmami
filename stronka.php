@@ -49,14 +49,17 @@
             <a class="nav-link disabled">Disabled</a>
             </li>
         </ul>
+
+        <!--przed kliknieciem-->
         <button class="btn btn-outline-success my-2 my-sm-0" type="button" data-toggle="collapse" data-target="#searchCollapse" aria-controls="searchCollapse" aria-expanded="false">
             <i class="fas fa-search"></i>
         </button>
-        
+        <!--po kliknieciu-->
         <form class="collapse form-inline my-2 my-lg-0" id="searchCollapse">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Szukaj</button>
         </form>
+        
     </div>  
 </nav>
 
