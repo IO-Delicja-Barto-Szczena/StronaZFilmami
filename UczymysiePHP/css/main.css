@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+#logonavbar{
+    max-width: 100px;
+    height: auto;
+    float: right;
+}   
+
+
+  
+  .inner-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+  }
+  
+  .niebieski-div {
+    height: 200px;
+    width: 800px;
+    background-color: lightgrey;
+    padding: 20px;
+    position: relative;
+    color:black;
+  }
+  .obrazekdlarankingu {
+    height: 100%; /* Ustala wysokość na 100% rodzica (niebieski-div) */
+    width: 20%; /* Szerokość lewego diva */
+   
+    float: left;
+    
+    
+  }
+  .numerekdlarankingu {
+    font-size: 2em;
+    height: 100%;
+    width: 5%;
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:1%;
+   
+  }
+  .tytuldlarankingu
+  {
+    
+    width: 45%;
+    height: 20%;
+    float:left;
+    display: flex;
+    align-items: center;
+    
+    padding-left: 5%;
+  }
+  .filmalboserialdlarankingu
+  {
+    float:left;
+    height: 30%;
+    width: 45%;
+  
+    display: flex;
+    align-items: center;
+  
+    padding-left: 5%;
+  }
+
+  
+  .rokdlarankingu
+  {
+   
+    width: 45%;
+    height: 30%;
+    float:left;
+  
+    padding-left: 5%;
+  }
+  .gatunkidlarankingu
+  {
+   
+    width: 69%;
+    height: 20%;
+    float:left;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+    
+   
+  }
+  .ocenadlarankingu
+  {
+    float:right;
+    height: 80%;
+    width: 24%;
+
+  
+ 
+   
+    
+  }
+
+.jebanko{
+height: 100px;
+width: 150px;
+
+}
+.obrazek{
+    width:40%;
+    height: 40%;
+ float:left;
+
+ display: flex;
+ align-items: center;
+justify-content: center;
+}
+.ocena
+{
+float:left;
+width: 60%;
+height: 30%;
+display: flex;
+align-items: center;
+color: black;
+font-size: 250%;
+}
